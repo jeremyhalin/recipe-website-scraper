@@ -1,0 +1,21 @@
+{
+  "name": "recipe-scrapper",
+  "version": "0.1.0",
+  "description": "A JavaScript scrapper to get recipes from websites",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Jérémy Halin",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "babel-jest": "^25.2.4",
+    "jest": "^25.2.4"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "node-html-parser": "^1.2.14"
+  }
+}
