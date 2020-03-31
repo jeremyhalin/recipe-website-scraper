@@ -1,5 +1,4 @@
-# recipe-scrapper
----
+# recipe-scraper
 
 ![npm](https://img.shields.io/npm/v/recipe-scrapper?style=flat-square)
 ![NPM](https://img.shields.io/npm/l/recipe-scrapper?style=flat-square)
