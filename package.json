@@ -8,6 +8,7 @@
   },
   "author": "Jérémy Halin",
   "license": "MIT",
+  "repository": "HJerem/recipe-scrapper",
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.0",
