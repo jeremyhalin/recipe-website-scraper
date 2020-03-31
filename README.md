@@ -1,7 +1,7 @@
-# recipe-scraper
+# recipe-website-scraper
 
-![npm](https://img.shields.io/npm/v/recipe-scrapper?style=flat-square)
-![NPM](https://img.shields.io/npm/l/recipe-scrapper?style=flat-square)
+![npm](https://img.shields.io/npm/v/recipe-website-scraper?style=flat-square)
+![NPM](https://img.shields.io/npm/l/recipe-website-scraper?style=flat-square)
 
 Get a recipe in object format from an URL.
 
@@ -10,15 +10,15 @@ Websites currently supported :
 
 ## Install
 ```bash
-$ npm install recipe-scrapper
+$ npm install recipe-website-scraper
 ```
 
 ## Usage
 ```javascript
-import scrapRecipe from '@recipe-scrapper';
+import scrapRecipe from '@recipe-website-scraper';
 
 const recipeUrl = "https://www.marmiton.org/recettes/recette_buche-roulee-mangue-citron-vert-au-nutella_382802.aspx";
-const recipeObject = scrapRecipe(recipeUrl);
+const recipeObject = await scrapRecipe(recipeUrl);
 
 recipeObject = {
     { url:
