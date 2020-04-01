@@ -1,5 +1,5 @@
 const fetch = require("node-fetch");
-import { parse } from 'node-html-parser';
+const HTMLParser = require('node-html-parser');
 
 async function scrapRecipe(url) {
     if(typeof url !== 'string') throw new Error("url param must be a string");
@@ -8,7 +8,7 @@ async function scrapRecipe(url) {
     const response = await fetch(url);
     const html = await response.text();
 
-    const root = parse(html);
+    const root = HTMLParser.parse(html);
 
     const steps = [];
     root.querySelectorAll('.recipe-preparation__list .recipe-preparation__list__item').forEach(liElement => {
@@ -70,4 +70,4 @@ function validURL(str) {
     return !!pattern.test(str);
 }
 
-module.exports = scrapRecipe;
+exports.scrap = scrapRecipe;
