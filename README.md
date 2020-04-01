@@ -15,10 +15,10 @@ $ npm install recipe-website-scraper
 
 ## Usage
 ```javascript
-import scrapRecipe from '@recipe-website-scraper';
+const RecipeScraper = require('recipe-website-scraper');
 
 const recipeUrl = "https://www.marmiton.org/recettes/recette_buche-roulee-mangue-citron-vert-au-nutella_382802.aspx";
-const recipeObject = await scrapRecipe(recipeUrl);
+const recipeObject = await RecipeScraper.scrap(recipeUrl);
 
 recipeObject = {
     { url:
