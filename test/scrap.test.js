@@ -5,7 +5,6 @@ const marmitonRecipeUrl =
 
 test("Get recipe from Marmiton", async () => {
   const recipe = await RecipeScraper.scrap(marmitonRecipeUrl);
-  console.log("recipe", recipe);
   expect(recipe.url).toBe(marmitonRecipeUrl);
   expect(recipe.title).toBe("Bûche roulée mangue citron vert au Nutella®");
   expect(recipe.quantity.value).toBe(6);
