@@ -1,7 +1,8 @@
 # recipe-website-scraper
 
-![npm](https://img.shields.io/npm/v/recipe-website-scraper?style=flat-square)
-![NPM](https://img.shields.io/npm/l/recipe-website-scraper?style=flat-square)
+![npm](https://img.shields.io/npm/v/recipe-website-scraper)
+![NPM](https://img.shields.io/npm/l/recipe-website-scraper)
+![build](https://github.com/jeremyhalin/recipe-website-scraper/workflows/build/badge.svg)
 
 Get a recipe in object format from an URL.
 
